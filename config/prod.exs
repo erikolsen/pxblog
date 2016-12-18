@@ -18,6 +18,7 @@ config :pxblog, Pxblog.Endpoint,
 
 # Do not print debug messages in production
 config :logger, level: :info
+config :comeonin, bcrypt_log_rounds: 14
 
 # ## SSL Support
 #
